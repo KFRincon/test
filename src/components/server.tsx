@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const ServerComponent = () => {
+export const ServerComponent = async () => {
   return (
     <div>server</div>
   )

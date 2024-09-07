@@ -1,9 +1,8 @@
-import { ReusableTable } from "@/components/table"
 
-export default function TablePage() {
-    return (
-        <div>
-            <ReusableTable columns={columns} data={data} />
-        </div>
-    )
+export default function NamePage() {
+  return (
+    <div>
+      <h1>Hello Page</h1>
+    </div>
+  );
 }

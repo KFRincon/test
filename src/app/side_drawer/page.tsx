@@ -12,7 +12,7 @@ import {
 export default function SideDrawerPage() {
     return (
         <div className="container">
-            <Drawer direction="right" snapPoints={[0.3]}>
+            <Drawer direction="right" snapPoints={[0.4]}>
                 <DrawerTrigger>Open</DrawerTrigger>
                 <DrawerContent className="w-full h-screen">
                     <DrawerHeader>
